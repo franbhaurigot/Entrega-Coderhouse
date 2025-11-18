@@ -198,3 +198,24 @@ footer {
     }
 
     
+    .main-pages {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    h1.h1-pages {
+        font-size: 32px;
+        padding: 12px 30px;
+    }
+
+    .section-flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .div-parrafos-pages {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    
