@@ -15,16 +15,13 @@ body{
 }
 
 
-header {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-}
+
 .margen-nav-logo{
     margin-left: 30px;
 }
 .margen-nav-lista{
-    margin-right: 100px;
+    margin-right: 200px;
+    gap: 150px;
 }
 
 .active{
@@ -34,6 +31,11 @@ header {
 .navbar {
     padding: 0;
     margin: 0;
+    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
 }
 
 .nav-link {
@@ -47,6 +49,7 @@ main {
     font-size: 20px;
     font-weight: 500;
     color: #54353E;
+    margin-right: 60px;
 }
 
 main h1 {
@@ -62,8 +65,8 @@ main h1 {
 }
 
 .parrafo-inicio{
-   max-width: 700px;
-    margin: 0 auto;
+   max-width: 813px;
+     margin: 0 auto;
 }
 
 .p-lightitalic {
@@ -78,7 +81,6 @@ footer {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #54353E;
-    
 }
 
 .footer-inicio{
