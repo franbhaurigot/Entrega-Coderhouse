@@ -10,12 +10,13 @@
     <title>Document</title>
 </head>
 
-<body>
-    <header> 
+<body class="d-flex flex-column min-vh-100">
+    <header>
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand margen-nav-logo" href="#"><img class="header-img" src="../assets/logo header.png" alt="" ></a>
+            <a class="navbar-brand margen-nav-logo" href="#"><img class="header-img" src="../assets/logo header.png"
+                    alt=""></a>
             <div class="container-fluid">
-                
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,48 +44,114 @@
         </nav>
     </header>
 
-    <main>
-        <h1>Cabañas</h1>
+    <main class="main-pages">
+        <h1 class="h1-pages">Cabañas</h1>
 
         <!-- separe los textos en varios <p></p> para que aparezcan separados y no sea un choclo todo junto -->
-        <p>
-            Cada una de nuestras cabañas está pensada para ofrecerte comodidad, descanso y conexión con la naturaleza.
-        </p>
-        <p>
-            Cuidamos cada detalle —desde la calidez de los interiores hasta las vistas que invitan a relajarse— para que
-            tu estadía sea una experiencia inolvidable.
-        </p>
-        <p>
-            Contamos con opciones para parejas, familias o grupos, todas equipadas con lo necesario para que solo tengas
-            que preocuparte por disfrutar:
-        </p>
-        <ul>
-            <li>Cocina completa</li>
-            <li>Wi-Fi y TV</li>
-            <li>Ropa blanca y servicio de limpieza</li>
-            <li>Parrilla individual y galería con vista a las sierras</li>
-            <li>Tanque australiano</li>
-        </ul>
-        <p>
-            Viví la tranquilidad del entorno y la calidez de un lugar hecho con amor.
-        </p>
-
-        <p class="p-lightitalic">
-            Tu descanso empieza acá. 🌿
-        </p>
-        <img src="../assets/IMG_6434.JPG" alt="">
-        <img src="../assets/IMG_6463.JPG" alt="">
-        <img src="../assets/IMG_6452.JPG" alt="">
-
+        <section class="section-flex">
+            <div class="div-parrafos-pages">
+                <p>
+                    Cada una de nuestras cabañas está pensada para ofrecerte comodidad, descanso y conexión con la naturaleza.
+                </p>
+                <p>
+                    Cuidamos cada detalle —desde la calidez de los interiores hasta las vistas que invitan a relajarse— para que
+                    tu estadía sea una experiencia inolvidable.
+                </p>
+                <p>
+                    Contamos con opciones para parejas, familias o grupos, todas equipadas con lo necesario para que solo tengas
+                    que preocuparte por disfrutar:
+                </p>
+                <ul>
+                    <li>Cocina completa</li>
+                    <li>Wi-Fi y TV</li>
+                    <li>Ropa blanca y servicio de limpieza</li>
+                    <li>Parrilla individual y galería con vista a las sierras</li>
+                    <li>Tanque australiano</li>
+                </ul>
+                <p>
+                    Viví la tranquilidad del entorno y la calidez de un lugar hecho con amor.
+                </p>
+                <p class="p-lightitalic">
+                    Tu descanso empieza acá. 🌿
+                </p>
+            </div>
+            
+            <section class="container rectangulo-bordo-pages">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../assets/IMG_6434.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/IMG_6463.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/IMG_6452.JPG" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </section>
 
     </main>
 
-    <footer>
-        <p>© 2025 Casas del Paraje. Todos los derechos reservados.</p>
-        <img src="../assets/instagram violeta.png" alt="">
-        <img src="../assets/whatsapp violeta.png" alt="">
-        <img src="../assets/mail color violeta.png" alt="">
-        <img src="../assets/icono.png" alt="">
+    <footer class="mt-auto">
+
+
+
+
+
+        <div class="columna ">
+            <div>
+
+
+                <p class="p-copyright">
+                    © 2025 Casas del Paraje. Todos los derechos reservados.
+
+                </p>
+            </div>
+            <div class="redes">
+
+
+                <img class="redes-img" src="../assets/instagram violeta.png" alt="">
+                <img class="redes-img" src="../assets/whatsapp violeta.png" alt="">
+                <img class="redes-img" src="../assets/mail color violeta.png" alt="">
+            </div>
+        </div>
+
+        <div class="logo">
+
+            <img class="img-footer" src="../assets/icono.png" alt="logo pag del footer">
+
+        </div>
+
+
+
+
+
+
+
+
+
+
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

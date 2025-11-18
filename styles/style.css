@@ -111,6 +111,7 @@ footer {
 .rectangulo-bordo-pages{
     background-color: #54353E;
     padding: 32px;
+    margin-bottom: 90px;
 
 }
 .logo {
@@ -139,12 +140,16 @@ footer {
     letter-spacing: 3px;
 }
 
-/*IMÁGENES*/
-.imagen-quienessomos{
-    height: 530px;
+.container{
+    max-width: 400px;
+    margin: 0;
+
 }
 
-
+/*IMÁGENES*/
+.imagen-pages{
+    height: 500px;
+}
 .img-footer {
     height: 50px;
 }
@@ -159,4 +164,9 @@ footer {
 
 .redes-img {
     height: 20px;
+}
+
+.google-maps{
+    height: 200px;
+    margin-left: 40px;
 }
