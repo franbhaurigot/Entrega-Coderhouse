@@ -1,44 +1,33 @@
+
 * {
     margin: 0;
     padding: 0;
-    
 }
 
-
-/*Fuente Montserrat y Roboto*/
+/* Montserrat y Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* font-family: "Montserrat", sans-serif;*/
-/*font-family: "Roboto", sans-serif;*/
+   /* font-family: "Montserrat", sans-serif;*/
+   /*font-family: "Roboto", sans-serif;*/
+*/
+
+body {
+    background-color: #EDE5D8;
+}
 
 
 header {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    color: #54353E;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid black;
 }
 
-.lista {
-    display: flex;
-    margin-right: 200px;
-    gap: 100px;
+.navbar {
+    padding: 0;
+    margin: 0;
 }
 
-
-
-
-
-
-.li-nav {
-    list-style: none;
-}
-
-.a-nav {
+.nav-link {
     text-decoration: none;
     color: #54353E;
 }
@@ -52,13 +41,13 @@ main {
     color: #54353E;
 }
 
-
 main h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 40px;
     color: #54353E;
 }
+
 
 .main-inicio {
     text-align: center;
@@ -70,21 +59,19 @@ main h1 {
     font-weight: 300;
 }
 
+
 footer {
     display: flex;
     justify-content: flex-end;
-    max-width: 100%;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #54353E;
-    border: 2px solid black;
-    margin-top: 100%;
-
+    
 }
 
-.footer-inicio {
+.footer-inicio{
     color: #EDE5D8;
-
+    margin-top: 30px;
 }
 
 .columna {
@@ -92,23 +79,27 @@ footer {
     flex-direction: column;
     margin: auto;
     text-align: center;
-
 }
+
+.rectangulo-bordo {
+    background-color: #54353E;
+    padding: 30px; 
+}
+
 
 .logo {
     display: flex;
     justify-content: end;
-    align-items: center;
-
+    align-items: end;
 }
 
 .redes {
     display: flex;
     justify-content: center;
     gap: 25px;
-
 }
 
+/*IMÁGENES*/
 .img-footer {
     height: 50px;
 }
