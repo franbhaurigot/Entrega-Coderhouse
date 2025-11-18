@@ -171,7 +171,7 @@ footer {
 }
 
 
-@media (max-width: 950px)  {
+@media  (max-width: 550px) {
 
     
     .margen-nav-logo {
@@ -186,6 +186,7 @@ footer {
     
     .main-inicio {
         font-size: 18px;
+        margin-right: 0;
     }
 
     .main-inicio h1 {
@@ -217,7 +218,10 @@ footer {
     .rectangulo-bordo-pages {
         padding: 20px;
         margin-bottom: 50px;
-        margin-left: 128px;
+        margin-right: 50px;
+        margin-left: 60px;
+        display: flex;
+        justify-content: center;
     }
 
     .carousel-inner img {
@@ -260,5 +264,6 @@ footer {
     .navbar-toggler{
         color: #54353E;
     }
+    
     
 }
