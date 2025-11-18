@@ -170,3 +170,21 @@ footer {
     height: 200px;
     margin-left: 40px;
 }
+
+
+@media (max-width: 576px) {
+    .margen-nav-logo {
+        margin-left: 10px;
+    }
+
+    .margen-nav-lista {
+        margin-right: 10px;
+        gap: 25px;
+        font-size: 14px;
+    }
+
+    main h1 {
+        font-size: 24px;
+    }
+
+   }
