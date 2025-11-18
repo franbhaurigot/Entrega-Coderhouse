@@ -9,9 +9,8 @@
 
    /* font-family: "Montserrat", sans-serif;*/
    /*font-family: "Roboto", sans-serif;*/
-*/
 
-body {
+body{
     background-color: #EDE5D8;
 }
 
@@ -21,7 +20,17 @@ header {
     font-weight: 500;
     font-size: 20px;
 }
+.margen-nav-logo{
+    margin-left: 30px;
+}
+.margen-nav-lista{
+    margin-right: 100px;
+}
 
+.active{
+    text-decoration: none;
+    border-bottom: solid 2px #54353E;
+}
 .navbar {
     padding: 0;
     margin: 0;
@@ -34,7 +43,6 @@ header {
 
 
 main {
-    text-align: left;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -53,6 +61,10 @@ main h1 {
     text-align: center;
 }
 
+.parrafo-inicio{
+   max-width: 700px;
+    margin: 0 auto;
+}
 
 .p-lightitalic {
     font-style: italic;
