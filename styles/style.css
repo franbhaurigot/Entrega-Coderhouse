@@ -58,8 +58,17 @@ main h1 {
     font-size: 40px;
     color: #54353E;
 }
-
-
+.h1-pages{
+    background-color: #54353E;
+    color: #EDE5D8;
+    padding: 16px 50px;
+    max-width: 500px;
+    letter-spacing: 3px;
+}
+.main-pages{
+    margin-top: 50px;
+    margin-right: 0;
+}
 .main-inicio {
     text-align: center;
 }
@@ -99,8 +108,11 @@ footer {
     background-color: #54353E;
     padding: 30px; 
 }
+.rectangulo-bordo-pages{
+    background-color: #54353E;
+    padding: 32px;
 
-
+}
 .logo {
     display: flex;
     justify-content: end;
@@ -113,7 +125,26 @@ footer {
     gap: 25px;
 }
 
+.section-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.div-parrafos-pages{
+    max-width: 800px;
+    margin-top: 32px; 
+    margin-left: 40px;
+}
+
+.p-copyright{
+    letter-spacing: 3px;
+}
+
 /*IMÁGENES*/
+.imagen-quienessomos{
+    height: 530px;
+}
+
+
 .img-footer {
     height: 50px;
 }
