@@ -172,19 +172,29 @@ footer {
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+
+    
     .margen-nav-logo {
-        margin-left: 10px;
+        margin-left: 15px;
     }
 
     .margen-nav-lista {
-        margin-right: 10px;
-        gap: 25px;
-        font-size: 14px;
+        margin-right: 30px;
+        gap: 50px;
     }
 
-    main h1 {
-        font-size: 24px;
+    
+    .main-inicio {
+        font-size: 18px;
     }
 
-   }
+    .main-inicio h1 {
+        font-size: 32px;
+    }
+
+    .parrafo-inicio {
+        max-width: 90%;
+    }
+
+    
