@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -7,31 +6,33 @@
 /* Montserrat y Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-   /* font-family: "Montserrat", sans-serif;*/
-   /*font-family: "Roboto", sans-serif;*/
+/* font-family: "Montserrat", sans-serif;*/
+/*font-family: "Roboto", sans-serif;*/
 
-body{
+body {
     background-color: #EDE5D8;
 }
 
 
 
-.margen-nav-logo{
+.margen-nav-logo {
     margin-left: 30px;
 }
-.margen-nav-lista{
+
+.margen-nav-lista {
     margin-right: 200px;
     gap: 150px;
 }
 
-.active{
+.active {
     text-decoration: none;
     border-bottom: solid 2px #54353E;
 }
+
 .navbar {
     padding: 0;
     margin: 0;
-    
+
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -57,31 +58,80 @@ main h1 {
     font-size: 40px;
     color: #54353E;
 }
-.h1-pages{
+
+.h1-pages {
     background-color: #54353E;
     color: #EDE5D8;
     padding: 16px 50px;
     max-width: 500px;
     letter-spacing: 3px;
 }
-.article-pages{
+
+.h1-inicio {
+    font-size: 70px;
+    letter-spacing: 14px;
+    text-align: center;
+}
+
+.h2-inicio{
+    font-size: 50px;
+    letter-spacing: 7px;
+    text-align: center;
+
+}
+
+.section-2-inicio{
+    margin-top: 200px;
+}
+
+.article-pages {
     margin-top: 50px;
     margin-right: 0;
 }
+
 .main-inicio {
-    text-align: center;
-    margin-top: 100px;
+    
+    margin-top: 70px;
 }
 
-.parrafo-inicio{
-   max-width: 813px;
-     margin: 0 auto;
+.parrafo-inicio {
+    max-width: 50%;
+
+    font-size: 18px;
+
 }
+
+.parrafo-2-inicio{
+    max-width: 50%;
+    font-size: 18px;
+    justify-content: end;
+    text-align: end;
+    
+}
+
+.div-fade-right {
+   
+    max-width: 50%;
+
+    text-align: start;
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-between;
+    
+}
+.div-fade-left{
+    max-width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 200px auto;
+} 
 
 .p-lightitalic {
     font-style: italic;
-    font-weight: 300;
+    font-weight: 100;
 }
+
+
 
 
 footer {
@@ -92,7 +142,7 @@ footer {
     color: #54353E;
 }
 
-.footer-inicio{
+.footer-inicio {
     color: #EDE5D8;
     margin-top: 30px;
 }
@@ -106,14 +156,16 @@ footer {
 
 .rectangulo-bordo {
     background-color: #54353E;
-    padding: 30px; 
+    padding: 30px;
 }
-.rectangulo-bordo-pages{
+
+.rectangulo-bordo-pages {
     background-color: #54353E;
     padding: 32px;
     margin-bottom: 90px;
 
 }
+
 .logo {
     display: flex;
     justify-content: end;
@@ -126,30 +178,32 @@ footer {
     gap: 25px;
 }
 
-.section-flex{
+.section-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.div-parrafos-pages{
+
+.div-parrafos-pages {
     max-width: 800px;
-    margin-top: 32px; 
+    margin-top: 32px;
     margin-left: 40px;
 }
 
-.p-copyright{
+.p-copyright {
     letter-spacing: 3px;
 }
 
-.container{
+.container {
     max-width: 400px;
     margin: 0;
 
 }
 
-.imagen-pages{
+.imagen-pages {
     height: 500px;
 }
+
 .img-footer {
     height: 50px;
 }
@@ -158,23 +212,33 @@ footer {
     height: 80px;
 }
 
+.img-fade {
+    height: 300px;
+}
+
 .main-img {
     height: 337px;
+}
+
+.imagen-principal {
+    max-width: 70%;
+    margin-top: 120px ;
+    margin-left: 250px;
 }
 
 .redes-img {
     height: 20px;
 }
 
-.google-maps{
+.google-maps {
     height: 200px;
     margin-left: 40px;
 }
 
 
-@media  (max-width: 560px) {
+@media (max-width: 560px) {
 
-    
+
     .margen-nav-logo {
         margin-left: 15px;
     }
@@ -184,7 +248,7 @@ footer {
         gap: 50px;
     }
 
-    
+
     .main-inicio {
         font-size: 18px;
         margin-right: 0;
@@ -198,7 +262,7 @@ footer {
         max-width: 90%;
     }
 
-    
+
     .main-pages {
         margin-right: 20px;
     }
@@ -231,13 +295,14 @@ footer {
         width: 100%;
     }
 
-    
+
     .imagen-pages {
         width: 100%;
         height: auto;
         margin: 0 auto;
     }
-    .main-img{
+
+    .main-img {
         width: 100%;
         height: auto;
         margin: 0 auto;
@@ -252,19 +317,19 @@ footer {
         gap: 15px;
     }
 
-    footer{
+    footer {
         display: flex;
         flex-direction: column;
     }
 
-    .logo{
+    .logo {
         display: flex;
         justify-content: center;
     }
 
-    .navbar-toggler{
+    .navbar-toggler {
         color: #54353E;
     }
-    
-    
+
+
 }

@@ -1,0 +1,13 @@
+@use '../utilities/variables';
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    color: $color-principal;
+}

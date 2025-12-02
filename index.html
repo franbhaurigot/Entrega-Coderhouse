@@ -4,6 +4,7 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +14,10 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand margen-nav-logo" href="#"><img class="header-img" src="./assets/logo header.png" alt="logo principal de la pagina" ></a>
+            <a class="navbar-brand margen-nav-logo" href="#"><img class="header-img" src="./assets/logo header.png"
+                    alt="logo principal de la pagina"></a>
             <div class="container-fluid">
-                
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -48,49 +50,68 @@
 
         <article class="main-inicio">
             <section>
-                <h1>
-                    BIENVENIDOS!
+
+
+                <h1 class="h1-inicio">
+                    BIENVENIDOS
                 </h1>
-                <div class="parrafo-inicio">
-                    <p>Te invitamos a disfrutar de un lugar pensado para descansar, rodeado de naturaleza, aire puro y las sierras
-                        de Córdoba como escenario.</p>
-                    <p> Nuestras cabañas combinan el confort y la calidez de un hogar con la paz del entorno natural, para que tu
-                        estadía sea una verdadera experiencia de descanso.</p>
-                    <p>Ya sea que busques relajarte en pareja, pasar unos días en familia o simplemente desconectarte del ritmo de
+                <div>
+                    <img class="imagen-principal" src="./assets/mainprincipal.jpg" alt="">
+                </div>
+
+
+                <div class="div-fade-right" data-aos="fade-right" data-aos-easing="ease-in-sine"
+                    data-aos-duration="1500">
+
+                    <p class="parrafo-inicio">Te invitamos a disfrutar de un lugar pensado para descansar, rodeado de
+                        naturaleza, aire puro y
+                        las sierras
+                        de Córdoba como escenario.<br />
+                        Nuestras cabañas combinan el confort y la calidez de un hogar con la paz del entorno natural,
+                        para que tu
+                        estadía sea una verdadera experiencia de descanso.<br />
+                        Ya sea que busques relajarte en pareja, pasar unos días en familia o simplemente desconectarte
+                        del ritmo de
                         la ciudad, acá vas a encontrar el espacio ideal para hacerlo.</p>
-                    <p class="p-lightitalic">
-                        Viví la tranquilidad, la belleza y la magia de Córdoba. Tu refugio en las sierras te está esperando. 🌿
-                    </p>
+
+                    <img class="img-fade" src="./assets/foto-fade.JPG" alt="">
                 </div>
             </section>
-            <section>
-                <h3>
+            <section class="section-2-inicio">
+
+                <h2 class="h2-inicio">
                     Un lugar para conectar con la naturaleza
-                </h3>
-            
-                <div class="parrafo-inicio">
-            
-                    <p>
-                        Nuestro complejo está ubicado en una zona privilegiada, rodeado de vegetación autóctona y senderos para recorrer.
-                        Es el equilibrio perfecto entre descanso, comodidad y aventura.
-                    </p>
-                    <p class="p-lightitalic" >
-                        Te esperamos para que vivas una experiencia diferente en cada estación del año.
-                    </p>
+                </h2>
+
+                <div class="div-fade-left" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+                    data-aos-duration="1500">
+                    <img class="img-fade" src="./assets/img-fade-left.JPG" alt="">
+
+                    <div class="parrafo-2-inicio">
+                        <p>
+                            Nuestro complejo está ubicado en una zona privilegiada, rodeado de vegetación autóctona y
+                            senderos para recorrer.
+                            Es el equilibrio perfecto entre descanso, comodidad y aventura.
+                        </p>
+                        <p class="p-lightitalic">
+                            Te esperamos para que vivas una experiencia diferente en cada estación del año.
+                        </p>
+                    </div>
+
                 </div>
             </section>
         </article>
 
-        
+
 
     </main>
 
     <footer>
-        
-        
 
 
-    
+
+
+
         <div class="columna rectangulo-bordo">
             <div>
                 <img class="main-img" src="./assets/20190304_191604.jpg" alt="foto paisaje arbol">
@@ -113,7 +134,7 @@
         <div class="logo">
 
             <img class="img-footer" src="./assets/icono.png" alt="logo pag del footer">
-         </div>
+        </div>
 
 
 
@@ -130,6 +151,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
