@@ -1,6 +1,7 @@
 
-@use '../Utilities/variables';
-@use '../Utilities/mixins';
+@use '../utilities/variables';
+@use '../utilities/mixins';
+@use '../utilities/extend';
 
 .navbar {
   padding: 0;
@@ -11,11 +12,11 @@
 
   .nav-link {
     text-decoration: none;
-    color: variables.$primary-color;
+    color: variables.$text-color;
 
     &.active {
       text-decoration: none;
-      border-bottom: solid 2px variables.$primary-color;
+      border-bottom: solid 2px variables.$text-color;
     }
   }
 }

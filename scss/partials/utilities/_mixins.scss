@@ -5,9 +5,3 @@
   align-items: $align;
 }
 
-@mixin flex-between($direction, $align) {
-  display: flex;
-  flex-direction: $direction;
-  justify-content: space-between;
-  align-items: $align;
-}

@@ -1,0 +1,42 @@
+@use '../utilities/variables';
+@use '../utilities/mixins';
+@use '../utilities/extend';
+
+
+
+.section-actividades {
+  @include mixins.flex(column, center, center);
+}
+
+.rectangulo-bordo {
+  background-color: variables.$primary-color;
+  padding: 30px;
+}
+
+.rectangulo-bordo-pages {
+  background-color: variables.$primary-color;
+  padding: 32px;
+  margin-bottom: 90px;
+}
+
+.imagen-pages {
+  height: 500px;
+}
+
+.img-fade {
+  height: 300px;
+}
+
+.main-img {
+  height: 337px;
+}
+
+.imagen-principal {
+  max-width: 70%;
+  margin-top: 120px ;
+  margin-left: 250px;
+}
+
+.header-img {
+  height: 80px;
+}

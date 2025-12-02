@@ -1,0 +1,39 @@
+@use '../utilities/variables';
+@use '../utilities/mixins';
+@use '../utilities/extend';
+
+footer {
+  @include mixins.flex(row, flex-end, center);
+  font-family: variables.$font-primary;
+  font-weight: 500;
+  color: variables.$text-color;
+
+  .footer-inicio {
+    color: variables.$secondary-color;
+    margin-top: 30px;
+  }
+
+  .columna {
+    @include mixins.flex(column, center, center);
+    margin: auto;
+    text-align: center;
+  }
+
+  .logo {
+    @include mixins.flex(row, flex-end, flex-end);
+  }
+
+  .redes {
+    @include mixins.flex(row, center, center);
+    gap: 25px;
+  }
+
+  .img-footer {
+    height: 50px;
+  }
+
+  .redes-img {
+    height: 20px;
+  }
+}
+

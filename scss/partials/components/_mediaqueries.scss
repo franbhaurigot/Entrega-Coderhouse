@@ -1,0 +1,79 @@
+@use '../utilities/variables';
+@use '../utilities/mixins';
+@use '../utilities/extend';
+
+@media (max-width: 560px) {
+
+  .margen-nav-logo {
+    margin-left: 15px;
+  }
+
+  .margen-nav-lista {
+    margin-right: 30px;
+    gap: 50px;
+  }
+
+  .main-inicio {
+    font-size: variables.$small-font-size;
+    margin-right: 0;
+
+    h1 {
+      font-size: 32px;
+    }
+  }
+
+  .parrafo-inicio {
+    max-width: 90%;
+  }
+
+  .main-pages {
+    margin-right: 20px;
+  }
+
+  .h1-pages {
+    font-size: 32px;
+  }
+
+  .section-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .div-parrafos-pages {
+    margin-top: 20px;
+  }
+
+  .rectangulo-bordo-pages {
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 60px;
+    @include mixins.flex(row, center, center);
+  }
+
+  .imagen-pages, .main-img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .header-img {
+    height: 60px;
+  }
+
+  .redes {
+    gap: 15px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .logo {
+    @include mixins.flex(row, center, center);
+  }
+
+  .navbar-toggler {
+    color: variables.$text-color;
+  }
+}

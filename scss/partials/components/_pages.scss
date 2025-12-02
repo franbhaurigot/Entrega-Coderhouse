@@ -1,6 +1,6 @@
-@use '../Utilities/variables';
-@use '../Utilities/mixins';
-@use '../Utilities/extend';
+@use '../utilities/variables';
+@use '../utilities/mixins';
+@use '../utilities/extend';
 
 main {
   font-family: variables.$font-secondary;
