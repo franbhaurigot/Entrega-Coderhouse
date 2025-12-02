@@ -1,0 +1,35 @@
+@use '../Utilities/variables';
+@use '../Utilities/mixins';
+@use '../Utilities/extend';
+
+main {
+  font-family: variables.$font-secondary;
+  font-size: variables.$base-font-size;
+  font-weight: 500;
+  color: variables.$text-color;
+
+  h1 {
+    font-family: variables.$font-primary;
+    font-weight: 500;
+    font-size: variables.$h1-size;
+    color: variables.$text-color;
+  }
+}
+
+.h1-pages {
+  background-color: variables.$primary-color;
+  color: variables.$secondary-color;
+  padding: 16px 50px;
+  max-width: 500px;
+  letter-spacing: 3px;
+}
+
+.div-parrafos-pages {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.p-lightitalic {
+  @extend %italic-light;
+}

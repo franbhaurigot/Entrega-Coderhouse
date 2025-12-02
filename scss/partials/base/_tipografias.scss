@@ -4,7 +4,7 @@
    /* font-family: "Montserrat", sans-serif;*/
    /*font-family: "Roboto", sans-serif;*/
 
-  @use '../../Utilities/Variables';
+  @use '../../Utilities/variables';
 
 body {
   font-family: variables.$font-secondary;
