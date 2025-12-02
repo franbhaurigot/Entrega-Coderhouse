@@ -4,7 +4,7 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +14,10 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand margen-nav-logo" href="#"><img class="header-img" src="../assets/logo header.png" alt="logo principal de la pagina" ></a>
+            <a class="navbar-brand margen-nav-logo" href="#"><img class="header-img" src="../assets/logo header.png"
+                    alt="logo principal de la pagina"></a>
             <div class="container-fluid">
-                
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,58 +46,104 @@
     </header>
 
     <main>
-        <h1 class="h1-pages">Dónde estamos</h1>
+        <article class="article-pages">
+            <h1 data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="500" class="h1-pages">Dónde
+                estamos</h1>
 
-        <!-- separe los textos en varios <p></p> para que aparezcan separados y no sea un choclo todo junto -->
-        <section class="section-flex">
-            
-                <article>
-                    <div class="div-parrafos-pages">
-                        <p>
-                            Nuestras cabañas se encuentran en el Paraje de los Gauchos, un rincón tranquilo y rodeado de naturaleza, muy
-                            cerca de El Durazno y Villa Yacanto.
-                        </p>
-                        <p>
-                            Un entorno ideal para quienes buscan desconectarse del ruido y disfrutar del sonido del río, las caminatas
-                            por los senderos serranos y las noches estrelladas.
-                        </p>
-                        <p>
-                            Estamos ubicados en una zona privilegiada por su belleza natural, con fácil acceso y a pocos minutos de los
-                            principales atractivos del valle.
-                        </p>
-                        <p>
-                            Podés llegar en auto hasta el complejo y contamos con espacio para estacionar.
-                        </p>
-                        <p>
-                            Si venís desde Córdoba capital, el viaje dura aproximadamente 3 horas, atravesando paisajes típicos de las
-                            sierras.
-                        </p>
-                        <p>
-                            En el mapa a continuación podés ver nuestra ubicación exacta y cómo llegar:
-                            https://maps.app.goo.gl/TBysetoRkeKn5Cgp8
-                        </p>
-                        
-                    </div>
-                    <img class="google-maps" src="../assets/google maps.png" alt=" foto google maps localizacion">
-                </article>
-            
-            <div class="rectangulo-bordo-pages">
-                <img class="imagen-pages" src="../assets/IMG_6486.JPG" alt=" foto paisaje caballos">
+
+            <section class="section-dondeestamos">
+
+                <div class="div-parrafos-dondeestamos-1">
+                    <p>
+                        Nuestras cabañas se encuentran en el Paraje de los Gauchos, un rincón tranquilo y rodeado de
+                        naturaleza, muy
+                        cerca de El Durazno y Villa Yacanto. <br>
+
+                        Un entorno ideal para quienes buscan desconectarse del ruido y disfrutar del sonido del río,
+                        las caminatas
+                        por los senderos serranos y las noches estrelladas. <br>
+
+                        Estamos ubicados en una zona privilegiada por su belleza natural, con fácil acceso y a pocos
+                        minutos de los
+                        principales atractivos del valle. <br>
+
+                        Podés llegar en auto hasta el complejo y contamos con espacio para estacionar.</p>
+                </div>
+
+
+
+                <div class="rectangulo-bordo-pages">
+                    <img class="imagen-pages" src="../assets/IMG_6486.JPG" alt=" foto paisaje caballos">
+                </div>
+            </section>
+        </article>
+
+
+        <section class="section-actividades">
+            <h2>Atractivos cercanos</h2>
+            <ul class="ul-atractivos">
+                <li>El río Durazno: ideal para caminatas y disfrutar de la naturaleza.</li>
+                <li>Villa Yacanto: pueblo cercano con gastronomía local y tiendas artesanales.</li>
+                <li>Senderos serranos: perfectos para cabalgata y fotografía.</li>
+                <li>Mirador de los Cóndores: un lugar espectacular para vistas panorámicas.</li>
+            </ul>
+            <div class="div-img-dondeestamos rectangulo-bordo-pages">
+                <img data-aos="zoom-in-right" data-aos-duration="500" class="img-fade" src="../assets/horse-ride.jpg"
+                    alt="">
+                <img data-aos="zoom-in-left" data-aos-duration="500" class="img-fade"
+                    src="../assets/paraje-el-durazno.jpg" alt="">
             </div>
         </section>
+
+        <section class="section-actividades">
+        <h2>Recomendaciones</h2>
+        <div class="div-parrafos-dondeestamos-2">
+            <p>
+                Te recomendamos llevar ropa cómoda para caminatas y abrigo por las noches, especialmente en invierno.
+                Cerca del complejo hay pequeños restaurantes y puestos de comida regional donde se pueden probar productos locales.
+                Visita el rio del Durazno que tenemos a menos de 5 minutos de las cabañas!
+            </p>
+        </div>
+        <div class="div-img-dondeestamos rectangulo-bordo-pages">
+                <img data-aos="zoom-in-right" data-aos-duration="500" class="img-fade" src="../assets/nieve-2.jpg"
+                    alt="">
+                <img data-aos="zoom-in-left" data-aos-duration="500" class="img-fade"
+                    src="../assets/riodeldurazno.jpg" alt="">
+            </div>
+
+    </section>
+
+    <section class="section-actividades">
+        <h2>Como llegar</h2>
+        <div class="div-parrafos-dondeestamos-2">
+            <p>
+                La forma más cómoda de llegar es en auto propio. Para quienes vienen desde Córdoba o Río Cuarto, el viaje 
+            dura aproximadamente 3 horas. También es posible coordinar traslados privados desde las localidades cercanas.
+            </p>
+        </div>
+        <div class="div-img-dondeestamos rectangulo-bordo-pages">
+                <img data-aos="zoom-in-right" data-aos-duration="500" class="img-fade" src="../assets/yacanto.jpg"
+                    alt="">
+                <img data-aos="zoom-in-left" data-aos-duration="500" class="img-fade"
+                    src="../assets/google maps.png" alt="">
+            </div>
+
+    </section>
+
+
 
 
     </main>
 
     <footer>
-        
-        
 
 
-       
+
+
+
         <div class="columna ">
             <div>
-                
+
 
                 <p class="p-copyright">
                     © 2025 Casas del Paraje. Todos los derechos reservados.
@@ -133,7 +180,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>

@@ -157,6 +157,16 @@ main h1 {
     color: #EDE5D8;
 }
 
+.card-text{
+    font-style: italic;
+}
+
+.section-actividades{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
 
 footer {
     display: flex;
@@ -216,12 +226,39 @@ footer {
     align-items: flex-end;
 }
 
+.section-dondeestamos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px auto;
+}
 
 .div-parrafos-pages {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 60px;
     
+}
+.div-img-dondeestamos{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 120px;
+}
+.div-parrafos-dondeestamos-1{
+    text-align: start;
+    margin-top: 60px;
+    max-width: 50%;
+
+}
+
+.div-parrafos-dondeestamos-2{
+    text-align: center;
+    max-width: 50%;
+    margin: 60px auto;
+
+}
+
+.ul-atractivos{
+    margin: 64px auto;
 }
 
 .div-parrafos-quienessomos{
@@ -268,12 +305,6 @@ footer {
 .redes-img {
     height: 20px;
 }
-
-.google-maps {
-    height: 200px;
-    margin-left: 40px;
-}
-
 
 @media (max-width: 560px) {
 
