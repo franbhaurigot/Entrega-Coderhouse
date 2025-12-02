@@ -1,13 +1,30 @@
-@use '../utilities/variables';
+
+@use '../Utilities/variables';
+@use '../Utilities/mixins';
 
 .navbar {
-    padding: 0;
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+  padding: 0;
+  margin: 0;
+  font-family: variables.$font-primary;
+  font-weight: 400;
+  font-size: variables.$base-font-size;
+
+  .nav-link {
+    text-decoration: none;
+    color: variables.$primary-color;
+
+    &.active {
+      text-decoration: none;
+      border-bottom: solid 2px variables.$primary-color;
+    }
+  }
 }
 
-.navbar-toggler {
-    color: $color-principal;
+.margen-nav-logo {
+  margin-left: variables.$margin-nav-logo;
+}
+
+.margen-nav-lista {
+  margin-right: variables.$margin-nav-lista;
+  gap: variables.$gap-nav-lista;
 }

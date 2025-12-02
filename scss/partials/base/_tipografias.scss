@@ -3,3 +3,38 @@
 
    /* font-family: "Montserrat", sans-serif;*/
    /*font-family: "Roboto", sans-serif;*/
+
+  @use '../../Utilities/Variables';
+
+body {
+  font-family: variables.$font-secondary;
+  font-size: variables.$base-font-size;
+  color: variables.$text-color;
+  background-color: variables.$secondary-color;
+}
+
+h1, h2, h3, h4 {
+  font-family: variables.$font-primary;
+  color: variables.$text-color;
+}
+
+h1 {
+  font-size: variables.$h1-size;
+}
+
+.h1-inicio {
+  font-size: variables.$h1-inicio-size;
+  letter-spacing: 14px;
+  text-align: center;
+}
+
+.h2-inicio {
+  font-size: variables.$h2-inicio-size;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+.p-lightitalic {
+  @extend %italic-light;
+}
+

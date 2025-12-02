@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Montserrat y Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Montserrat", sans-serif;*/
+/*font-family: "Roboto", sans-serif;*/
+
+body {
+    background-color: #EDE5D8;
+}
+
+
+
+.margen-nav-logo {
+    margin-left: 30px;
+}
+
+.margen-nav-lista {
+    margin-right: 200px;
+    gap: 150px;
+}
+
+.active {
+    text-decoration: none;
+    border-bottom: solid 2px #54353E;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #54353E;
+}
+
+
+main {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #54353E;
+}
+
+main h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #54353E;
+}
+
+.h1-pages {
+    background-color: #54353E;
+    color: #EDE5D8;
+    padding: 16px 50px;
+    max-width: 500px;
+    letter-spacing: 3px;
+}
+
+.h1-inicio {
+    font-size: 70px;
+    letter-spacing: 14px;
+    text-align: center;
+}
+
+.h2-inicio{
+    font-size: 50px;
+    letter-spacing: 7px;
+    text-align: center;
+
+}
+
+.section-2-inicio{
+    margin-top: 200px;
+}
+
+.article-pages {
+    margin: 50px auto;
+}
+
+.main-inicio {
+    
+    margin-top: 70px;
+}
+
+.parrafo-inicio {
+    max-width: 50%;
+
+    font-size: 18px;
+
+}
+
+.parrafo-2-inicio{
+    max-width: 50%;
+    font-size: 18px;
+    justify-content: end;
+    text-align: end;
+    
+}
+
+.div-fade-right {
+   
+    max-width: 50%;
+
+    text-align: start;
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-between;
+    
+}
+.div-fade-left{
+    max-width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 200px auto;
+} 
+
+.p-lightitalic {
+    font-style: italic;
+    font-weight: 100;
+}
+.titulo-cards{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.div-cards{
+    margin-top: 100px;
+    max-width: 100%;
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+}
+.div-testimonios{
+    max-width: 100%;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    background-color: #54353E;
+    color: #EDE5D8;
+}
+
+.card-text{
+    font-style: italic;
+}
+
+.section-actividades{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #54353E;
+}
+
+.footer-inicio {
+    color: #EDE5D8;
+    margin-top: 30px;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.rectangulo-bordo {
+    background-color: #54353E;
+    padding: 30px;
+}
+
+.rectangulo-bordo-pages {
+    background-color: #54353E;
+    padding: 32px;
+    margin-bottom: 90px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.section-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-flex-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    max-width: 100%;
+    align-items: flex-end;
+}
+
+.section-dondeestamos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px auto;
+}
+
+.div-parrafos-pages {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    
+}
+.div-img-dondeestamos{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 120px;
+}
+.div-parrafos-dondeestamos-1{
+    text-align: start;
+    margin-top: 60px;
+    max-width: 50%;
+
+}
+
+.div-parrafos-dondeestamos-2{
+    text-align: center;
+    max-width: 50%;
+    margin: 60px auto;
+
+}
+
+.ul-atractivos{
+    margin: 64px auto;
+}
+
+.div-parrafos-quienessomos{
+    max-width: 50%;
+    text-align: start;
+}
+
+.p-copyright {
+    letter-spacing: 3px;
+}
+
+.container-carrusel {
+    max-width: 400px;
+    margin: 0;
+
+}
+
+.imagen-pages {
+    height: 500px;
+}
+
+.img-footer {
+    height: 50px;
+}
+
+.header-img {
+    height: 80px;
+}
+
+.img-fade {
+    height: 300px;
+}
+
+.main-img {
+    height: 337px;
+}
+
+.imagen-principal {
+    max-width: 70%;
+    margin-top: 120px ;
+    margin-left: 250px;
+}
+
+.redes-img {
+    height: 20px;
+}
+
+@media (max-width: 560px) {
+
+
+    .margen-nav-logo {
+        margin-left: 15px;
+    }
+
+    .margen-nav-lista {
+        margin-right: 30px;
+        gap: 50px;
+    }
+
+
+    .main-inicio {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .main-inicio h1 {
+        font-size: 32px;
+    }
+
+    .parrafo-inicio {
+        max-width: 90%;
+    }
+
+
+    .main-pages {
+        margin-right: 20px;
+    }
+
+    .h1-pages {
+        font-size: 32px;
+    }
+
+    .section-flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .div-parrafos-pages {
+        margin-top: 20px;
+    }
+
+    .rectangulo-bordo-pages {
+        padding: 20px;
+        margin-bottom: 50px;
+        margin-right: 50px;
+        margin-left: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-inner img {
+        height: auto;
+        max-height: 300px;
+        width: 100%;
+    }
+
+
+    .imagen-pages {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .main-img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .header-img {
+        height: 60px;
+    }
+
+
+    .redes {
+        gap: 15px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-toggler {
+        color: #54353E;
+    }
+
+
+}
