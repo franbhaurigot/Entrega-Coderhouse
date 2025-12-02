@@ -207,11 +207,26 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+.section-flex-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    max-width: 100%;
+    align-items: flex-end;
+}
+
 
 .div-parrafos-pages {
     text-align: center;
-    margin-top: 32px;
-    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    
+}
+
+.div-parrafos-quienessomos{
+    max-width: 50%;
+    text-align: start;
 }
 
 .p-copyright {
