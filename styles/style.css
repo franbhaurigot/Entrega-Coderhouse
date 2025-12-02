@@ -85,8 +85,7 @@ main h1 {
 }
 
 .article-pages {
-    margin-top: 50px;
-    margin-right: 0;
+    margin: 50px auto;
 }
 
 .main-inicio {
@@ -130,8 +129,25 @@ main h1 {
     font-style: italic;
     font-weight: 100;
 }
+.titulo-cards{
+    text-align: center;
+    margin-top: 100px;
 
+}
 
+.div-cards{
+    margin-top: 100px;
+    max-width: 100%;
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    background-color: #54353E;
+    color: #EDE5D8;
+}
 
 
 footer {
@@ -194,7 +210,7 @@ footer {
     letter-spacing: 3px;
 }
 
-.container {
+.container-carrusel {
     max-width: 400px;
     margin: 0;
 
