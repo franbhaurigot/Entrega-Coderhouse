@@ -1,0 +1,39 @@
+@use '../utilities/variables';
+@use '../utilities/mixins';
+@use '../utilities/extend';
+
+.article-pages { 
+    margin: 50px auto;
+ }
+
+.section-dondeestamos {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px auto;
+}
+
+.div-parrafos-dondeestamos-1 {
+  text-align: start;
+  margin-top: 60px;
+  max-width: 50%;
+}
+
+.div-parrafos-dondeestamos-2 {
+  text-align: center;
+  max-width: 50%;
+  margin: 60px auto;
+}
+
+.div-img-dondeestamos {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 120px;
+}
+
+.ul-atractivos { margin: 64px auto; }
+
+.rectangulo-bordo-pages {
+  background-color: variables.$primary-color;
+  padding: 32px;
+  margin-bottom: 90px;
+}

@@ -1,0 +1,35 @@
+@use '../utilities/variables';
+@use '../utilities/mixins';
+@use '../utilities/extend';
+
+.article-pages {
+  margin: 50px auto;
+}
+
+.section-flex-row {
+  @include mixins.flex(row, space-between, flex-start);
+  gap: 40px;
+  padding: 0 40px;
+}
+
+.div-parrafos-quienessomos {
+  max-width: 50%;
+  text-align: start;
+
+  h2 { margin-bottom: 10px; }
+  p { line-height: 1.5; }
+}
+
+.rectangulo-bordo-pages {
+  background-color: variables.$primary-color;
+  padding: 32px;
+  margin-bottom: 90px;
+
+  .imagen-pages {
+    height: 500px;
+  }
+}
+
+.p-lightitalic {
+  @extend %italica;
+}

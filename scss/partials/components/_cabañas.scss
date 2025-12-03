@@ -1,0 +1,38 @@
+@use '../utilities/variables';
+@use '../utilities/mixins';
+@use '../utilities/extend';
+
+.article-pages { margin: 50px auto; }
+
+.section-flex {
+  @include mixins.flex(row, space-between, center);
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.div-parrafos-pages {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+
+  p { max-width: 100%; }
+}
+
+.container-carrusel {
+  max-width: 400px;
+  margin: 0;
+}
+
+.titulo-cards { text-align: center; margin-top: 100px; }
+
+.div-cards { 
+  margin-top: 100px;
+  max-width: 100%;
+  gap: 32px;
+  @include mixins.flex(row, center, stretch);
+}
+
+.div-testimonios {
+  @include mixins.flex(row, center, stretch);
+  margin-top: 60px;
+}
