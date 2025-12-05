@@ -53,7 +53,7 @@
 
   .rectangulo-bordo-pages {
     .imagen-pages {
-      width: 100%;
+      width: 90%;
       height: auto;
     }
   }
@@ -99,8 +99,7 @@
       align-items: center;
 
       img {
-        width: 100%;
-        height: auto;
+        width: 300px;
       }
     }
   }
@@ -131,7 +130,6 @@
     margin: 20px auto;
     padding: 20px;
     width: 100%;
-    box-sizing: border-box;
   }
 
   .imagen-pages,

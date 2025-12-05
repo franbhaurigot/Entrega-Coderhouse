@@ -452,7 +452,7 @@ footer {
     text-align: center;
   }
   .rectangulo-bordo-pages .imagen-pages {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
   .div-cards {
@@ -485,14 +485,13 @@ footer {
     margin: 10px auto;
     text-align: center;
   }
-  .section-dondeestamos .div-img-dondeestamos {
+  .section-dondeestamos {
     flex-direction: column;
     gap: 20px;
     align-items: center;
   }
   .section-dondeestamos .div-img-dondeestamos img {
-    width: 100%;
-    height: auto;
+    width: 300px;
   }
   .section-flex {
     flex-direction: column;
@@ -516,7 +515,6 @@ footer {
     margin: 20px auto;
     padding: 20px;
     width: 100%;
-    box-sizing: border-box;
   }
   .imagen-pages,
   .main-img {
@@ -536,6 +534,16 @@ footer {
   footer .redes {
     gap: 15px;
   }
+
+  .div-img-dondeestamos {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
