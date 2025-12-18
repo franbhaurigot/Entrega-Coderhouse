@@ -509,7 +509,7 @@ footer {
     align-items: center;
   }
   .rectangulo-bordo-pages .img-fade {
-    width: 500px;
+    width: auto;
   }
   .rectangulo-bordo-pages .imagen-pages {
     height: 700px;
