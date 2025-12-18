@@ -337,11 +337,9 @@ footer {
 .div-cards {
   margin-top: 100px;
   max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
 }
 
 .div-testimonios {
@@ -458,7 +456,7 @@ footer {
     height: auto;
   }
   .div-cards {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     align-items: center;
     margin-top: 40px;
   }

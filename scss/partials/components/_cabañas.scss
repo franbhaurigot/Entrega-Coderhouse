@@ -25,13 +25,13 @@
 
 .titulo-cards { text-align: center; margin-top: 100px; }
 
-.div-cards { 
+.div-cards {
   margin-top: 100px;
   max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
-  @include mixins.flex(row, center, stretch);
 }
-
 .div-testimonios {
   @include mixins.flex(row, center, stretch);
   margin-top: 60px;
