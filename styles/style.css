@@ -407,7 +407,7 @@ footer {
   margin-bottom: 60px;
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 900px) {
   .navbar .margen-nav-lista {
     margin-right: 0;
     gap: 20px;
@@ -450,10 +450,6 @@ footer {
   .div-parrafos-quienessomos {
     max-width: 100%;
     text-align: center;
-  }
-  .rectangulo-bordo-pages .imagen-pages {
-    width: 90%;
-    height: auto;
   }
   .div-cards {
     grid-template-columns: 1fr;
