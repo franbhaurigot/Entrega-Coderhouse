@@ -1,5 +1,13 @@
 @media (min-width: 400px) and (max-width: 900px) {
 
+ .navbar{
+  .margen-nav-lista {
+      margin-right: 0;
+      gap: 20px;
+      align-items: end;
+    }
+ }
+
   .h1-pages {
     font-size: 26px;
     max-width: 90%;
@@ -152,6 +160,8 @@
     .redes {
       gap: 15px;
     }
-  }
 
+    
+  }
+  
 }
